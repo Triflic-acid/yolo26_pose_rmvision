@@ -7,9 +7,5 @@ __pycache__/
 
 ## Local datasets, checkpoints, and generated run artifacts
 dataset/
-runs/
 outputs/
-output/
 tmp/
-weights/
-*.pt
