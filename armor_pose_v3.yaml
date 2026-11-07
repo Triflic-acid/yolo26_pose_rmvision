@@ -1,3 +1,5 @@
+#用于v3训练时需要删除复制的数据集
+
 path: "/home/mm/RMStage2/dataset"
 train: train/images
 val: val/images
