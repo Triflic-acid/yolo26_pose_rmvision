@@ -1,0 +1,9 @@
+# 能量机关数据集（2 类：未激活 / 已激活）
+path: "/home/mm/RMStage2/rune_dataset"
+train: train/images
+val: val/images
+kpt_shape: [5, 2]
+flip_idx: [2, 1, 0, 3, 4]
+names:
+  0: RUNE_OFF   # 未激活（叶片暗）
+  1: RUNE_ON    # 已激活（叶片亮）

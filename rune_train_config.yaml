@@ -1,0 +1,37 @@
+# Training configuration for train.py. Paths may be absolute or relative to this file.
+data: rune_pose.yaml
+model: /home/mm/RMStage2/yolo26_pose_rmvision/yolo26n-pose.pt
+resume: null
+device: auto
+
+output:
+  project: runs/pose
+  name: RMStage2-1-rune_v1
+  exist_ok: false
+
+train:
+  epochs: 100
+  patience: 30
+  imgsz: 640
+  batch: 16
+  workers: 4
+  fraction: 1.0
+  cache: false
+  seed: 42
+  deterministic: true
+  plots: true
+  val: true
+  save: true
+  verbose: true
+  hsv_h: 0.015
+  hsv_s: 0.5      # v3 0.7，调低
+  hsv_v: 0.25     # v3 0.4，调低
+  degrees: 0.0
+  translate: 0.1
+  scale: 0.5
+  fliplr: 0.5
+  flipud: 0.0
+  mosaic: 1.0
+  mixup: 0.0
+  copy_paste: 0.0
+  close_mosaic: 10

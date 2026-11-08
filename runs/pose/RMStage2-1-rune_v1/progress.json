@@ -1,0 +1,23 @@
+{
+  "epochs_completed": 69,
+  "epochs_requested": 100,
+  "latest_epoch_seconds": 3.0161444649993427,
+  "average_epoch_seconds": 3.107351376753655,
+  "validation_metrics": {
+    "metrics/precision(B)": 0.99449,
+    "metrics/recall(B)": 1.0,
+    "metrics/mAP50(B)": 0.995,
+    "metrics/mAP50-95(B)": 0.94321,
+    "metrics/precision(P)": 0.99449,
+    "metrics/recall(P)": 1.0,
+    "metrics/mAP50(P)": 0.995,
+    "metrics/mAP50-95(P)": 0.597,
+    "val/box_loss": 0.31526,
+    "val/pose_loss": 2.42317,
+    "val/kobj_loss": 0.0,
+    "val/cls_loss": 0.2238,
+    "val/l1_loss": 0.00106,
+    "val/rle_loss": 0.0
+  },
+  "best_epoch": 39
+}

@@ -1,0 +1,8 @@
+# 能量机关数据集（2 类：未激活 / 已激活）
+path: "/home/mm/RMStage2/rune_dataset_v2"
+train: train/images
+val: val/images
+kpt_shape: [4, 2]
+flip_idx: [2, 1, 0, 3]
+names:
+  0: RUNE
